@@ -23,3 +23,14 @@ TOP_K = 5000
 
 # Intervalo entre quadros (milissegundos)
 INTERVALO_VIDEO = 30
+
+
+# Modelo de reconhecimento facial
+MODELO_SFACE = (
+    BASE_DIR
+    / "modelos"
+    / "face_recognition_sface_2021dec.onnx"
+)
+
+# Limiar experimental de similaridade
+LIMIAR_SIMILARIDADE = 0.363
